@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+<style>
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+
+
+
+.active a{
+  color: #ff589e !important;
+}
+
+.nav-link {
+  font-weight: 500 !important;
+}
+
+.nav-item {
+  padding-left: 20px;
+  padding-left: 20px;
+}
+
+.navbar{
+  background: #f8f8f8 !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-block-start: 15px;
+  margin-left: 6%;
+  margin-right: 6%;
+  border-radius: 50px;
+
+}
+
+.navbar.scrolled{
+  background: #f1f1f1 !important;
+  opacity: 0.9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-block-start: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  border-radius: 0px;
+
+}
+
+@media (max-width: 991px) {
+ .navbar:not(.top-nav-collapse) {
+  background: #f8f8f8 !important;
+ }
+}
+
+.titulo {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 30px;
+  color: #f8f8f8;
+}
+
+.subtitulo {
+  font-size: 18px;
+  margin: 30px;
+  margin-bottom: 10px;
+  color: #f8f8f8;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+</style>
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+/*Ludimilla Krautzuk*/
+
+.text-center{
+	width: 75%;
+	margin:0 auto;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+}
+.padding-img {
+	width: 60%;
+	margin:0 auto;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+ .text-center{
+	width: 75%;
+	margin:0 auto;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+}
+
+}
+.padding img/right-image{
+	width: 60%;
+	margin:0 auto;
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+	padding-left: 4rem;
+	padding-right: 0rem;
+}
+.padding hr{
+	color: 
+}
+.style{
+	background-image:url(img/work-process-bg.png);
+	width: 100%;
+	position: center;
+	height: 100%;
+	background-size:cover;
+}
+#fixed {
+
+	background-image:url(img/work-process-bg.png);
+	display: table;
+	width: 100%;
+	position: relative;
+	height: 60%;
+	background-size:cover;
+	padding-bottom: 6rem;
+
+}
+.card {
+	box-shadow: 10px 7px 1px 2px #9400d3;
+	transition: 0.3s;
+	border-radius: 20px;
+	height: auto;
+	width: auto;
+	padding-top: 2rem;
+
+}
+.card img {
+	height: 40px;
+	width: 60px;
+	padding-top:2;
+	margin: 0;
+	padding: 0;
+}
+
+.card-image {
+
+  height: auto;
+  width: auto;
+  padding: 15px 15px;
+  border-radius: 35px;
+  background-color: #8261ee;
+  background-size: cover;
+}
+
+}
+.container {
+display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-color:white;
+	padding-bottom: 2rem;
+	padding-top:2rem;
+}
+.paragrafo {
+	padding-top: 2rem;
+}
+
+
+.cartao{
+    background: #fff;
+    box-shadow: 0 2px 45px 0 rgb(187, 180, 180);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+.relatos{
+    text-align: left;
+    font-size: 15px;
+    border-color: white;
+}
+
+.planos{
+    
+    background: #fff;
+    box-shadow: 0 2px 45px 0 rgb(187, 180, 180);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+.preco{
+    background-color:  #8261ee;
+    font-size: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    height: 100px;
+    width: 30;
+    color: white
+}
+
+.lista {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+.botao{
+    font-size: 15px;
+    border: none;
+    padding: 15px 20px;
+    background-color: #8261ee;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-elegant{
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #ff589e ;
+    color: #fff;
+    border-radius: 100px;
+}
+.card-text{
+  color: #a5a0b4;
+}
+
+/*André Thomal*/
+
+#funfacts {
+
+	background-image:url(img/fun-facts-bg.png);
+	display: table;
+	width: 100%;
+	position: relative;
+	height: 81%;
+	background-size:cover;
+	padding-bottom: 6rem;
+
+}
+
+.caixa{
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 100px;
+  background: #fff;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.caixamaior{
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 40px;
+  background: #fff;
+  position: relative;
+  height: 200px;
+  width: 450px;
+  margin-bottom: 5px;
+}
+
+
+
